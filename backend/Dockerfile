@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements
-COPY requirements.txt .
+# Copy requirements (Railway builds from root, so specify backend/)
+COPY backend/requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
@@ -43,8 +43,10 @@ RUN wget -q https://github.com/EmbarkStudios/texture-synthesis/releases/download
 # Create directories
 RUN mkdir -p /app/uploads /app/outputs /app/pretrained_models /app/data
 
-# Copy application code
-COPY app/ /app/app/
+# Copy application code (from root context)
+COPY backend/app/ /app/app/
+
+# Note: No datasets included - will use procedural texture generation
 
 # Environment variables
 ENV PLAN2SCENE_ROOT=/app/plan2scene
@@ -60,4 +62,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD curl -f http://localhost:8000/health || exit 1
 
 # Run application
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--timeout-keep-alive", "300"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
