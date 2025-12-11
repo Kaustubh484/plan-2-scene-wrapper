@@ -1,0 +1,59 @@
+﻿version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PLAN2SCENE_ROOT=/app/plan2scene
+      - MODEL_PATH=/app/pretrained_models
+      - DATA_PATH=/app/data
+      - TEXTURE_SYNTHESIS_BIN=/app/texture_synthesis
+      - PORT=8000
+      - CUDA_VISIBLE_DEVICES=0
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      - ./backend/app:/app/app
+      - ./backend/data:/app/data
+      - uploads:/app/uploads
+      - outputs:/app/outputs
+      - pretrained_models:/app/pretrained_models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://backend:8000
+    volumes:
+      - outputs:/usr/share/nginx/html/outputs
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - app-network
+
+volumes:
+  uploads:
+  outputs:
+  pretrained_models:
+
+networks:
+  app-network:
+    driver: bridge

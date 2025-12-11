@@ -1,0 +1,2265 @@
+{
+    "format": "sceneState",
+    "scene": {
+        "arch": {
+            "id": "47546432",
+            "elements": [
+                {
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_f",
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "points": [
+                        [
+                            [
+                                5.486854560000001,
+                                0.0,
+                                5.345570340000001
+                            ],
+                            [
+                                6.357980310000001,
+                                0.0,
+                                6.018860100000001
+                            ],
+                            [
+                                6.1599539100000005,
+                                0.0,
+                                10.137237990000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                10.176843270000003
+                            ],
+                            [
+                                4.87297272,
+                                0.0,
+                                6.395110260000001
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_c",
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "points": [
+                        [
+                            [
+                                5.486854560000001,
+                                0.0,
+                                5.345570340000001
+                            ],
+                            [
+                                6.357980310000001,
+                                0.0,
+                                6.018860100000001
+                            ],
+                            [
+                                6.1599539100000005,
+                                0.0,
+                                10.137237990000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                10.176843270000003
+                            ],
+                            [
+                                4.87297272,
+                                0.0,
+                                6.395110260000001
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            5.486854560000001,
+                            0.0,
+                            5.345570340000001
+                        ],
+                        [
+                            4.87297272,
+                            0.0,
+                            6.395110260000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.357980310000001,
+                            0.0,
+                            6.018860100000001
+                        ],
+                        [
+                            5.486854560000001,
+                            0.0,
+                            5.345570340000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_f14b20ab8046497f9558aac8036258ac",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.21366173540110078,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.7291948278688044,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.1599539100000005,
+                            0.0,
+                            10.137237990000001
+                        ],
+                        [
+                            6.357980310000001,
+                            0.0,
+                            6.018860100000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_ca8a634050ec4f40926f2e158ea2c797",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    2.400607882928101,
+                                    0.0
+                                ],
+                                "max": [
+                                    2.938378341796266,
+                                    2.21
+                                ]
+                            }
+                        },
+                        {
+                            "id": "hole_dce7410305cc457a81726696bff154e2",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.3174075370167647,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.7505166251298271,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            4.912578000000001,
+                            0.0,
+                            10.176843270000003
+                        ],
+                        [
+                            6.1599539100000005,
+                            0.0,
+                            10.137237990000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_2f16631bf47042fab36dee9be9c49541",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.2975727477585029,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.8509911154394951,
+                                    2.1
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a_wall_4",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            4.87297272,
+                            0.0,
+                            6.395110260000001
+                        ],
+                        [
+                            4.912578000000001,
+                            0.0,
+                            10.176843270000003
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_3d031716d1e740c4b1f2453f5fca2bc8",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.8119534495427431,
+                                    0.0
+                                ],
+                                "max": [
+                                    1.2674390446487191,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_f",
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "points": [
+                        [
+                            [
+                                6.19955919,
+                                0.0,
+                                9.10769112
+                            ],
+                            [
+                                8.39746182,
+                                0.0,
+                                9.10769112
+                            ],
+                            [
+                                8.39746182,
+                                0.0,
+                                10.137237990000001
+                            ],
+                            [
+                                6.19955919,
+                                0.0,
+                                10.137237990000001
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_c",
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "points": [
+                        [
+                            [
+                                6.19955919,
+                                0.0,
+                                9.10769112
+                            ],
+                            [
+                                8.39746182,
+                                0.0,
+                                9.10769112
+                            ],
+                            [
+                                8.39746182,
+                                0.0,
+                                10.137237990000001
+                            ],
+                            [
+                                6.19955919,
+                                0.0,
+                                10.137237990000001
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.19955919,
+                            0.0,
+                            9.10769112
+                        ],
+                        [
+                            6.19955919,
+                            0.0,
+                            10.137237990000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_30c2772798ba4ed8a9c4586a96d64db2",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.31665183000000025,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.6929019900000014,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.39746182,
+                            0.0,
+                            9.10769112
+                        ],
+                        [
+                            6.19955919,
+                            0.0,
+                            9.10769112
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.39746182,
+                            0.0,
+                            10.137237990000001
+                        ],
+                        [
+                            8.39746182,
+                            0.0,
+                            9.10769112
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.19955919,
+                            0.0,
+                            10.137237990000001
+                        ],
+                        [
+                            8.39746182,
+                            0.0,
+                            10.137237990000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_f",
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "points": [
+                        [
+                            [
+                                2.31881298,
+                                0.0,
+                                2.07870597
+                            ],
+                            [
+                                5.5066572,
+                                0.0,
+                                2.05890333
+                            ],
+                            [
+                                5.5066572,
+                                0.0,
+                                5.305965060000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                6.375307620000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                10.117435350000001
+                            ],
+                            [
+                                2.31881298,
+                                0.0,
+                                10.157040630000001
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_c",
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "points": [
+                        [
+                            [
+                                2.31881298,
+                                0.0,
+                                2.07870597
+                            ],
+                            [
+                                5.5066572,
+                                0.0,
+                                2.05890333
+                            ],
+                            [
+                                5.5066572,
+                                0.0,
+                                5.305965060000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                6.375307620000001
+                            ],
+                            [
+                                4.912578000000001,
+                                0.0,
+                                10.117435350000001
+                            ],
+                            [
+                                2.31881298,
+                                0.0,
+                                10.157040630000001
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            2.31881298,
+                            0.0,
+                            2.07870597
+                        ],
+                        [
+                            2.31881298,
+                            0.0,
+                            10.157040630000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            5.5066572,
+                            0.0,
+                            2.05890333
+                        ],
+                        [
+                            2.31881298,
+                            0.0,
+                            2.07870597
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_ee1e8c2b79a24e6cb0abe4a6f14922b7",
+                            "type": "Window",
+                            "box": {
+                                "min": [
+                                    0.27724225625159565,
+                                    1.0
+                                ],
+                                "max": [
+                                    1.8413001430449094,
+                                    2.2
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            5.5066572,
+                            0.0,
+                            5.305965060000001
+                        ],
+                        [
+                            5.5066572,
+                            0.0,
+                            2.05890333
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            4.912578000000001,
+                            0.0,
+                            6.375307620000001
+                        ],
+                        [
+                            5.5066572,
+                            0.0,
+                            5.305965060000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_4",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            4.912578000000001,
+                            0.0,
+                            10.117435350000001
+                        ],
+                        [
+                            4.912578000000001,
+                            0.0,
+                            6.375307620000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_388b269c18a24769959b10ac4f45617f",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    2.3561333399999995,
+                                    0.0
+                                ],
+                                "max": [
+                                    2.8908046200000004,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6_wall_5",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            2.31881298,
+                            0.0,
+                            10.157040630000001
+                        ],
+                        [
+                            4.912578000000001,
+                            0.0,
+                            10.117435350000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_f",
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "points": [
+                        [
+                            [
+                                6.37778295,
+                                0.0,
+                                6.03866274
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                6.03866274
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                6.8503805700000004
+                            ],
+                            [
+                                6.37778295,
+                                0.0,
+                                6.8503805700000004
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_c",
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "points": [
+                        [
+                            [
+                                6.37778295,
+                                0.0,
+                                6.03866274
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                6.03866274
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                6.8503805700000004
+                            ],
+                            [
+                                6.37778295,
+                                0.0,
+                                6.8503805700000004
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.37778295,
+                            0.0,
+                            6.03866274
+                        ],
+                        [
+                            6.37778295,
+                            0.0,
+                            6.8503805700000004
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.437067100000002,
+                            0.0,
+                            6.03866274
+                        ],
+                        [
+                            6.37778295,
+                            0.0,
+                            6.03866274
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_b02698f420034743971ef0481db869c4",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.3326462700000007,
+                                    0.0
+                                ],
+                                "max": [
+                                    1.8679221000000013,
+                                    2.23
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.437067100000002,
+                            0.0,
+                            6.8503805700000004
+                        ],
+                        [
+                            8.437067100000002,
+                            0.0,
+                            6.03866274
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.37778295,
+                            0.0,
+                            6.8503805700000004
+                        ],
+                        [
+                            8.437067100000002,
+                            0.0,
+                            6.8503805700000004
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_f",
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "points": [
+                        [
+                            [
+                                6.239164470000001,
+                                0.0,
+                                6.889985850000001
+                            ],
+                            [
+                                8.417264460000002,
+                                0.0,
+                                6.889985850000001
+                            ],
+                            [
+                                8.417264460000002,
+                                0.0,
+                                9.068085840000002
+                            ],
+                            [
+                                6.239164470000001,
+                                0.0,
+                                9.068085840000002
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_c",
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "points": [
+                        [
+                            [
+                                6.239164470000001,
+                                0.0,
+                                6.889985850000001
+                            ],
+                            [
+                                8.417264460000002,
+                                0.0,
+                                6.889985850000001
+                            ],
+                            [
+                                8.417264460000002,
+                                0.0,
+                                9.068085840000002
+                            ],
+                            [
+                                6.239164470000001,
+                                0.0,
+                                9.068085840000002
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.239164470000001,
+                            0.0,
+                            6.889985850000001
+                        ],
+                        [
+                            6.239164470000001,
+                            0.0,
+                            9.068085840000002
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_8cc7fe85dd984c7a88599617d9d1c9ef",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.31684223999999983,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.8117178300000003,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.417264460000002,
+                            0.0,
+                            6.889985850000001
+                        ],
+                        [
+                            6.239164470000001,
+                            0.0,
+                            6.889985850000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.417264460000002,
+                            0.0,
+                            9.068085840000002
+                        ],
+                        [
+                            8.417264460000002,
+                            0.0,
+                            6.889985850000001
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.239164470000001,
+                            0.0,
+                            9.068085840000002
+                        ],
+                        [
+                            8.417264460000002,
+                            0.0,
+                            9.068085840000002
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_f",
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "points": [
+                        [
+                            [
+                                5.427446640000001,
+                                0.0,
+                                1.9796927700000002
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                2.05890333
+                            ],
+                            [
+                                8.35785654,
+                                0.0,
+                                6.058465380000001
+                            ],
+                            [
+                                6.37778295,
+                                0.0,
+                                6.058465380000001
+                            ],
+                            [
+                                5.486854560000001,
+                                0.0,
+                                5.36537298
+                            ]
+                        ]
+                    ],
+                    "type": "Floor",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_c",
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "points": [
+                        [
+                            [
+                                5.427446640000001,
+                                0.0,
+                                1.9796927700000002
+                            ],
+                            [
+                                8.437067100000002,
+                                0.0,
+                                2.05890333
+                            ],
+                            [
+                                8.35785654,
+                                0.0,
+                                6.058465380000001
+                            ],
+                            [
+                                6.37778295,
+                                0.0,
+                                6.058465380000001
+                            ],
+                            [
+                                5.486854560000001,
+                                0.0,
+                                5.36537298
+                            ]
+                        ]
+                    ],
+                    "type": "Ceiling",
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "offset": [
+                        0,
+                        2.8,
+                        0
+                    ],
+                    "depth": 0.05
+                },
+                {
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_wall_0",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            5.427446640000001,
+                            0.0,
+                            1.9796927700000002
+                        ],
+                        [
+                            5.486854560000001,
+                            0.0,
+                            5.36537298
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_wall_1",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.437067100000002,
+                            0.0,
+                            2.05890333
+                        ],
+                        [
+                            5.427446640000001,
+                            0.0,
+                            1.9796927700000002
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_b3705075c35b4906b3c05fba12d2a223",
+                            "type": "Window",
+                            "box": {
+                                "min": [
+                                    1.167811161543286,
+                                    1.0
+                                ],
+                                "max": [
+                                    2.710665322771598,
+                                    2.2
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_wall_2",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            8.35785654,
+                            0.0,
+                            6.058465380000001
+                        ],
+                        [
+                            8.437067100000002,
+                            0.0,
+                            2.05890333
+                        ]
+                    ],
+                    "holes": [],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_wall_3",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            6.37778295,
+                            0.0,
+                            6.058465380000001
+                        ],
+                        [
+                            8.35785654,
+                            0.0,
+                            6.058465380000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_3b280dbc021944ccb223fc1a3673d092",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.1913620500000002,
+                                    0.0
+                                ],
+                                "max": [
+                                    1.7266378800000002,
+                                    2.23
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                },
+                {
+                    "roomId": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959_wall_4",
+                    "type": "Wall",
+                    "points": [
+                        [
+                            5.486854560000001,
+                            0.0,
+                            5.36537298
+                        ],
+                        [
+                            6.37778295,
+                            0.0,
+                            6.058465380000001
+                        ]
+                    ],
+                    "holes": [
+                        {
+                            "id": "hole_90c396083f524c88b3ad1dcab967b507",
+                            "type": "Door",
+                            "box": {
+                                "min": [
+                                    0.28832657313962495,
+                                    0.0
+                                ],
+                                "max": [
+                                    0.8283731600554045,
+                                    2.21
+                                ]
+                            }
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        },
+                        {
+                            "name": "surface",
+                            "diffuse": "#f6deff"
+                        }
+                    ],
+                    "height": 2.8,
+                    "depth": 0.1,
+                    "extra_height": 0.035
+                }
+            ],
+            "rdr": [
+                [
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "hole_f14b20ab8046497f9558aac8036258ac",
+                    "room_5_968b6ce29b7c4334ae20a930a8133959"
+                ],
+                [
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "hole_ca8a634050ec4f40926f2e158ea2c797",
+                    "room_4_47147d492c774d66a214c6a8fd062300"
+                ],
+                [
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "hole_dce7410305cc457a81726696bff154e2",
+                    "room_1_1f15de4230bd4f0e9aaf862273b04460"
+                ],
+                [
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "hole_2f16631bf47042fab36dee9be9c49541",
+                    null
+                ],
+                [
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "hole_3d031716d1e740c4b1f2453f5fca2bc8",
+                    "room_2_3e32eb669c0243ed8f557cb4e7180ed6"
+                ],
+                [
+                    "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "hole_30c2772798ba4ed8a9c4586a96d64db2",
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a"
+                ],
+                [
+                    "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "hole_388b269c18a24769959b10ac4f45617f",
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a"
+                ],
+                [
+                    "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "hole_b02698f420034743971ef0481db869c4",
+                    "room_5_968b6ce29b7c4334ae20a930a8133959"
+                ],
+                [
+                    "room_4_47147d492c774d66a214c6a8fd062300",
+                    "hole_8cc7fe85dd984c7a88599617d9d1c9ef",
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a"
+                ],
+                [
+                    "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "hole_3b280dbc021944ccb223fc1a3673d092",
+                    "room_3_498ec561e13543eeb3632a4350d5cb37"
+                ],
+                [
+                    "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "hole_90c396083f524c88b3ad1dcab967b507",
+                    "room_0_150f7788f2ba47f7b6bc86d786cc0e3a"
+                ]
+            ],
+            "rooms": [
+                {
+                    "id": "room_0_150f7788f2ba47f7b6bc86d786cc0e3a",
+                    "types": [
+                        "Corridor",
+                        "Entrance"
+                    ]
+                },
+                {
+                    "id": "room_1_1f15de4230bd4f0e9aaf862273b04460",
+                    "types": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "room_2_3e32eb669c0243ed8f557cb4e7180ed6",
+                    "types": [
+                        "Reception",
+                        "Kitchen"
+                    ]
+                },
+                {
+                    "id": "room_3_498ec561e13543eeb3632a4350d5cb37",
+                    "types": [
+                        "Closet"
+                    ]
+                },
+                {
+                    "id": "room_4_47147d492c774d66a214c6a8fd062300",
+                    "types": [
+                        "Bathroom"
+                    ]
+                },
+                {
+                    "id": "room_5_968b6ce29b7c4334ae20a930a8133959",
+                    "types": [
+                        "Bedroom"
+                    ]
+                }
+            ],
+            "materials": [],
+            "textures": [],
+            "images": [],
+            "defaults": {
+                "Wall": {
+                    "depth": 0.1,
+                    "extraHeight": 0.035
+                },
+                "Ceiling": {
+                    "depth": 0.05
+                },
+                "Floor": {
+                    "depth": 0.05
+                }
+            }
+        },
+        "object": [
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 0,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.4248961124846917,
+                        0.0,
+                        0.32840058005374223,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.611531173183306,
+                        0.0,
+                        0.791220338606794,
+                        0.0,
+                        5.984976665375974,
+                        0.0,
+                        5.730567009859989,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 1,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.026904265210057208,
+                        0.0,
+                        -0.5595311079118442,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.9988459848201758,
+                        0.0,
+                        0.04802810227994819,
+                        0.0,
+                        6.288164598236147,
+                        0.0,
+                        7.47082551321192,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 2,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.02166813289819669,
+                        0.0,
+                        -0.4506346600529793,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.9988459848201758,
+                        0.0,
+                        0.048028102279947193,
+                        0.0,
+                        6.185599095443402,
+                        0.0,
+                        9.603892109273716,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.bdf128e71e0a63befffbefa91d5552d",
+                "index": 3,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.6507524974643102,
+                        0.0,
+                        -0.02066196297856602,
+                        0.0,
+                        0.0,
+                        0.9999999999999999,
+                        0.0,
+                        0.0,
+                        0.031734885499689065,
+                        0.0,
+                        0.9994963216752334,
+                        0.0,
+                        5.486570678237749,
+                        0.0,
+                        10.15861849865617,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 4,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.0049686890896192505,
+                        0.0,
+                        0.47443814427367026,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.9999451648888109,
+                        0.0,
+                        0.010472211585362379,
+                        0.0,
+                        4.883860639084093,
+                        0.0,
+                        7.43474949523642,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 5,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        8.702533138560425e-17,
+                        0.0,
+                        0.3919272500000012,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        2.220446049250313e-16,
+                        0.0,
+                        6.19955919,
+                        0.0,
+                        9.61246803,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.8999eaec900e6f9df3e04d48ebcc1166",
+                "index": 6,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -0.9200163004425185,
+                        0.0,
+                        0.005715069600169066,
+                        0.0,
+                        0.0,
+                        1.0000000000000002,
+                        0.0,
+                        0.0,
+                        -0.006211802262770921,
+                        0.0,
+                        -0.9999807065702062,
+                        0.0,
+                        4.447406437326271,
+                        1.0,
+                        2.0654833132348625,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 7,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        1.236675761795427e-16,
+                        0.0,
+                        0.556949250000001,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        2.220446049250313e-16,
+                        0.0,
+                        4.912578000000001,
+                        0.0,
+                        7.493966370000001,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.da233216bc6e4381ef91b95315ed32e6",
+                "index": 8,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.8723158125000003,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        7.336782915000001,
+                        0.0,
+                        6.03866274,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 9,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        1.144629738214499e-16,
+                        0.0,
+                        0.5154954062500006,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        2.220446049250313e-16,
+                        0.0,
+                        6.239164470000001,
+                        0.0,
+                        7.454265885000002,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.8999eaec900e6f9df3e04d48ebcc1166",
+                "index": 10,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -0.9072471024687908,
+                        0.0,
+                        -0.023877944744211847,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.02631000847989627,
+                        0.0,
+                        -0.9996538318106862,
+                        0.0,
+                        6.498500160433496,
+                        1.0,
+                        2.007881955404298,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.da233216bc6e4381ef91b95315ed32e6",
+                "index": 11,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.8723158125,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        7.336782915000001,
+                        0.0,
+                        6.058465380000001,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.e1243519f6939b30601e9679255885a5",
+                "index": 12,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        0.4440131575353972,
+                        0.0,
+                        0.3454173741031944,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.614022358761393,
+                        0.0,
+                        0.7892886309463067,
+                        0.0,
+                        5.9275537617958065,
+                        0.0,
+                        5.708212282102315,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.3111b3a7c5cb9355a28b16ad9ca2f28",
+                "index": 13,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -2.220446049250313e-16,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -2.220446049250313e-16,
+                        0.0,
+                        2.71881298,
+                        0.0,
+                        8.565117825000002,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.43718f23c7d9083d7eee615e75bc3b77",
+                "index": 14,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -0.9998834428319453,
+                        0.0,
+                        0.015267637359348269,
+                        0.0,
+                        0.0,
+                        1.0000000000000002,
+                        0.0,
+                        0.0,
+                        -0.015267637359348269,
+                        0.0,
+                        -0.9998834428319453,
+                        0.0,
+                        3.6100464641770413,
+                        0.0,
+                        9.767281116152182,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.581c8baea2ec1161e8109480f4780398",
+                "index": 15,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        1.4519992827136536e-16,
+                        0.0,
+                        0.6539223428571438,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.6847574716981131,
+                        0.0,
+                        1.5204670227267082e-16,
+                        0.0,
+                        4.5090992100000005,
+                        0.0,
+                        8.22742569,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.329f80229edd920a82ef94da039e491f",
+                "index": 16,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -1.0025969845360831,
+                        0.0,
+                        1.2278271879469025e-16,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.407008183666046e-16,
+                        0.0,
+                        -1.1489093709677434,
+                        0.0,
+                        7.400379855000001,
+                        0.0,
+                        6.435001155000001,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.72863e1ef3c0a6fbdd5cf959690bb73f",
+                "index": 17,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        7.817187345000001,
+                        0.0,
+                        7.189985850000001,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.b808d1b9b4f187fd456cbf78e1e89022",
+                "index": 18,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        2.220446049250313e-16,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        2.220446049250313e-16,
+                        0.0,
+                        8.027264460000001,
+                        0.0,
+                        7.923721740000001,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "modelId": "3dw.a490b13c799e605e54d7082b34825ef0",
+                "index": 19,
+                "parentIndex": -1,
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": [
+                        -1.0,
+                        0.0,
+                        1.2246467991473532e-16,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.2246467991473532e-16,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        7.154465340000001,
+                        0.0,
+                        8.638085840000002,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "up": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        },
+        "front": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "unit": 1,
+        "assetSource": [
+            "3dw"
+        ],
+        "assetTransforms": {
+            "3dw": {
+                "alignTo": {
+                    "up": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "front": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "scaleTo": 1,
+                "centerTo": [
+                    0.5,
+                    0,
+                    0.5
+                ]
+            }
+        }
+    },
+    "selected": []
+}

@@ -1,0 +1,29 @@
+TERMS OF USE FOR RENT3D++ DATASET
+------------------------------------
+We use the same terms of use as the RENT3D dataset.
+This data is for non-commercial use only. If you want to use it for commercial purposes, please contact Madhawa Vidanapathirana (mvidanap@sfu.ca) and Manolis Savva (msavva@sfu.ca).
+
+When using this dataset in your research, please cite our paper and the Rent3D paper:
+@inproceedings{Madhawa2021Plan2Scene,
+    author = {Madhawa Vidanapathirana and Qirui Wu and Yasutaka Furukawa and Angel X. Chang and Manolis Savva},
+    title = {Plan2Scene: Converting Floorplans to 3D Scenes},
+    booktitle=CVPR,
+    year = {2021}
+}
+@inproceedings{ApartmentsCVPR15,
+	title = {Rent3D: Floor-Plan Priors for Monocular Layout Estimation},
+	author = {Chenxi Liu and Alex Schwing and Kaustav Kundu and Raquel Urtasun and Sanja Fidler},
+	booktitle = {CVPR},
+	year = {2015}}
+
+
+TERMS OF USE FOR RENT3D DATASET
+----------------------------------
+This data is for non-commercial use only. If you want to use it for commercial purposes, please contact Sanja Fidler (fidler@cs.toronto.edu) and Raquel Urtasun (urtasun@cs.toronto.edu).
+
+When using this dataset in your research, please cite our paper:
+@inproceedings{ApartmentsCVPR15,
+	title = {Rent3D: Floor-Plan Priors for Monocular Layout Estimation},
+	author = {Chenxi Liu and Alex Schwing and Kaustav Kundu and Raquel Urtasun and Sanja Fidler},
+	booktitle = {CVPR},
+	year = {2015}}
