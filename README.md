@@ -54,7 +54,7 @@ cd plan2scene-web-app
 ### 2. Run this command
 ```bash
 # Build and start all services
-# Make sure you have docker configured on your device
+# Make sure you have docker configured on your device (Refer to https://docs.docker.com/get-started/get-docker/)
 docker-compose up --build
 
 # Access at http://localhost:3000
